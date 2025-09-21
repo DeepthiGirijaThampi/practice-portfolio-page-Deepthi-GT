@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Deepthi's Portfolio</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
         
         <h2>About me</h2>
         <hr>
-        <img src="image-deeps.jpg" width="300px" height="300px" alt="profile pic">
+        <img id="profile-img" src="image-deeps.jpg" width="300px" height="300px" alt="profile pic">
         
         <p >
             I'm a passionate <em><strong>full-stack web developer</strong> </em>with a background in Java and Android development,
@@ -25,7 +26,7 @@
     </section>
     <section>
         <h2>My Skills</h2>
-        <table border="1">
+        <table id="table-id" border="1">
             <tr>
                 <th>Skills/Tools</th>
                 <th>Proficiency</th>
@@ -46,15 +47,16 @@
     </section>
     <section>
         <h2>Contact</h2>
-        <form >
-            <labe><strong>Name : </strong> </labe> <input type="text"><br><br>
-            <label><strong>email :</strong> </label> <input type="email"><br><br>
-            <label><strong>Message</strong> </label> <br> <textarea></textarea><br><br>
-            <button type="submit" ><strong>Send</strong></button>
+        <form class="form-class">
+            <labe><strong>Name  </strong> </labe> <br><input id="input-name" type="text"><br><br>
+            <label><strong>email </strong> </label><br> <input id="input-email" type="email"><br><br>
+            <label><strong>Message</strong> </label> <br> <textarea id="text-area-msg"></textarea><br><br>
+            <button id="btn" type="submit" ><strong>Send</strong></button>
         </form>
-    </section>
-    <footer>
-        <p>&copy; 2025 Deepthi Girija Thampi. All rights reserved.</p>
+    </section><br>
+
+    <footer >
+        <p id="footer-id-portfolio" >&copy; 2025 Deepthi Girija Thampi. All rights reserved.</p>
     </footer>
 </body>
 </html>

@@ -7,7 +7,6 @@ footer{
     text-align: center;
     padding: 60px;
     border: 20px;
-
 }
 
 h1,h2,p{
@@ -23,7 +22,40 @@ h1,h2,p{
 #github-img{
     border-radius: 50%;
 }
-#profile-img{
+#profile-img{  /* both for profile and portfolio */
     border-radius: 100%;
     
+}
+
+/* styles for portfolio page */
+
+#footer-id-portfolio{
+    color: #f5f5f5;;
+}
+#table-id{
+    border-collapse: collapse;
+    border : 2px solid, #1e3a8a
+}
+th,td{
+    padding: 10px;
+}
+#input-name, #input-email,#text-area-msg{
+    width: 20%;
+    border-color: #f5f5f5;
+    border-radius: 5%;
+}
+
+#text-area-msg{
+    height: 100px;
+   
+}
+#btn{
+    background-color: #1e3a8a;
+    color: #f5f5f5;
+    border: none;
+    padding: 20px 26px;
+    margin-left: 5%;
+    border-radius: 10%;
+    text-decoration: none;
+    cursor: pointer;
 }
